@@ -7,7 +7,7 @@ public class Main {
         int step = scanner.nextInt();
         System.out.print("Vvedit` kilkist` potokiv: ");
         int numThreads = scanner.nextInt();
-        int permissionInterval = 3000;
+        int permissionInterval = 10000;
 
         SummingThread[] threads = new SummingThread[numThreads];
 
@@ -39,7 +39,7 @@ public class Main {
 
         public void run() {
             double sum = 0;
-            int count = 0;
+            double count = 0;
             double current = 0;
 
             while (running) {

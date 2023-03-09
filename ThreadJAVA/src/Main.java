@@ -48,7 +48,7 @@ public class Main {
                 current += step;
             }
 
-            System.out.printf("Thread %d: sum=%f count=%d\n", id + 1, sum, count);
+            System.out.printf("Thread %d: sum=%f count=%f2\n", id + 1, sum, count);
         }
 
         public void setRunning(boolean running) {
